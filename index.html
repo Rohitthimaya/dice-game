@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice Game</title>
+    <link rel="shortcut icon" href=" https://www.google.com/s2/favicons?domain=colorhunt.co" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Box for our Game -->
+    <div id="container" class="container">
+
+        <!-- Title for our Game -->
+        <h2 id="title" class="title">Player 1 Turn</h2>
+
+        <!-- Score-Card Box-->
+        <div id="score-card-container" class="score-card-container">
+
+            <!-- Player-1 Score-Card-->
+            <div class="score-card">
+                <!-- Player-1 Score-Card-Title -->
+                <h3 class="score-card-title">
+                    <!-- Player-1 Score -->
+                    Score: <span id="score-first" class="score">0</span>
+                </h3>
+                <!-- Player-1 Dice Score -->
+                <div class="dice"><span class="dice-score" id="dice-score-first">0</span></div>
+            </div>
+
+            <!-- Player-2 Score-Card-->
+            <div class="score-card">
+                <!-- Player-2 Score-Card-Title -->
+                <h3 class="score-card-title">
+                    <!-- Player-2 Score -->
+                    Score: <span id="score-second" class="score">0</span>
+                </h3>
+                 <!-- Player-2 Dice Score -->
+                <div class="dice"><span class="dice-score" id="dice-score-second">0</span></div>
+            </div>
+
+        </div>
+        <!-- Buttons -->
+        <a href="#" class="btn" id="roll-btn"><i class="fas fa-dice-six"></i>Roll Dice</a>
+        <a href="#" class="btn" id="reset-btn" style="display: none;"><i class="fas fa-retweet"></i>Reset</a>
+
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
